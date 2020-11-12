@@ -147,6 +147,7 @@ html {
 .sectionTag {
   text-align: justify;
   padding-right: 80px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .mid-nav {
   display: flex;
@@ -158,6 +159,7 @@ html {
 .section-midTag {
   padding-left: 80px;
   text-align: justify;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .imgfluid {
   border-radius: 20px;
