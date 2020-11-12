@@ -1,0 +1,90 @@
+@media (max-width: 1140px) {
+    .nav-list {
+      flex-direction: column;
+      margin: auto;
+      padding-top: 10px;
+    }
+    .rightNav {
+      flex-direction: column;
+      margin: auto;
+      padding-right: 0px;
+    }
+    .navbar {
+      height: 300px;
+      flex-direction: column;
+      transition: all 0.7s ease-out;
+    }
+    .nav-list li {
+      margin: 10px 0px;
+    }
+    .burger {
+      display: block;
+    }
+    .h-nav {
+      height: 50px;
+    }
+    .v-class {
+      opacity: 0;
+    }
+    .burger {
+      top: 12px;
+    }
+    .parafirstsec {
+      padding-right: 0px;
+    }
+    .mainbox {
+      max-width: 65%;
+    }
+  }
+  @media (max-width: 1001px) {
+    .right-nav {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      padding-right: 0px;
+      padding: 50px 0px;
+    }
+    .mid-nav {
+      padding: 50px 0px;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      padding-right: 0px;
+    }
+    .sectionTag {
+      padding: 0px 50px;
+      padding-top: 20px;
+    }
+    .section-midTag {
+      padding: 0px 50px;
+      padding-top: 20px;
+    }
+  }
+  @media (max-width: 700px) {
+    .mainbox {
+      max-width: 92%;
+    }
+    #name {
+      width: 60%;
+    }
+    .contact-btn {    
+      width: 23%;
+    }
+  }
+  @media (max-width: 500px) {
+    .sectionTag {
+      padding: 0px 20px;
+      padding-top: 10px;
+    }
+    .section-midTag {
+      padding: 0px 20px;
+      padding-top: 10px;
+    }
+    .right-nav {
+      padding: 20px 0px;
+    }
+    .mid-nav {
+      padding: 10px 0px;
+    }
+  }
+  
