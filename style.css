@@ -270,6 +270,9 @@ html {
    #name {    
     width: 60%;
   }
+  .contact-btn {    
+    width: 23%;
+  }
 }
 @media (max-width: 500px) {
   .sectionTag {
